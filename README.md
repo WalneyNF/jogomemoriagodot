@@ -1,6 +1,6 @@
 
 🧠 Jogo de Memória em Godot 4.3
-Este é um jogo de memória desenvolvido em Godot 4.3, baseado no projeto em JavaScript do canal Manual do Dev. O jogo utiliza sprites e mecânicas inspiradas no vídeo original, adaptadas para o motor de jogo Godot.
+Este é um jogo de memória desenvolvido em Godot 4.3, baseado no projeto em JavaScript do canal Manual do Dev. ( https://www.youtube.com/watch?v=tcbMmm77WOU ) O jogo utiliza sprites e mecânicas inspiradas no vídeo original, adaptadas para o motor de jogo Godot.
 
 🎮 Como Jogar
 Objetivo: Encontre todos os pares de cartas com imagens correspondentes.
