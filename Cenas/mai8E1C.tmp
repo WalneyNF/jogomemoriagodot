@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cuurm7i5hejxe"]
+
+[ext_resource type="Script" path="res://Scripts/main.gd" id="1_ltqys"]
+[ext_resource type="PackedScene" uid="uid://b7f4xqdpibquj" path="res://Prefabs/card.tscn" id="2_dvcs7"]
+
+[node name="Main" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_ltqys")
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+theme_override_constants/h_separation = 2
+theme_override_constants/v_separation = 2
+columns = 5
+
+[node name="Card1" parent="GridContainer" instance=ExtResource("2_dvcs7")]
